@@ -4,9 +4,61 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 </head>
 <body>
-	<h2>Sobre Nós</h2>
+	<div class="container">				
+		<h2>Sobre Nós</h2>
+		<img class="img-responsive" src="img/empresa.jpg">
+		<div class="panel-group" id=paineis-sobre>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+				</div>
+				<div id="primeiro-paragrafo"class="collapse">
+					<div class="panel-body">
+						<p >A TopCasaFina esta no mercado</p>
+					</div>
+				</div>			
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+				</div>
+				<div id="segundo-paragrafo"class="collapse">
+					<div class="panel-body">
+						<p >A TopCasaFina esta no mercado</p>
+					</div>
+				</div>			
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+				</div>
+
+				<div id="terceiro-paragrafo"class="collapse">
+					<div class="panel-body">
+						<p >A TopCasaFina esta no mercado</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+
+		<h2>Nossos Projetos</h2>
+		<figure class="thumbnail">
+			<img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
+			<figcaption class="caption">
+				<h3>Casa Castelo</h3>
+				<p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+			</figcaption>		
+		</figure>
+		
+	</div>
 </body>
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </html>
